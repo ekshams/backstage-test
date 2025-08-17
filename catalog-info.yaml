@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: m5-blue-service
+  description: My Spring Boot microservice
+  annotations:
+    github.com/project-slug: my-org/m5-blue-service
+spec:
+  type: service
+  lifecycle: production
+  owner: my-team
