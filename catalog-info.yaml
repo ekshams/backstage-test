@@ -4,7 +4,6 @@ metadata:
   name: m5-blue-service
   description: My Spring Boot microservice
   annotations:
-    github.com/project-slug: my-org/m5-blue-service
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
